@@ -1,4 +1,4 @@
-# Orientation Attendance Bot
+# OMC Attendance Bot
 
 A Telegram bot created to streamline attendance taking and tracking within orientation camps.
 
@@ -74,14 +74,12 @@ python app.py
 
 ## How to use it
 
-- Users have to find the Telegram bot by name on Telegram
-- Type `/start` to start or reset the bot
+Users have to find the Telegram bot by name on Telegram and type `/start`. `/start` can also be used to reset the bot if it freezes.
 
 ## Changing the number of OGs
 
-- You can change the number of OGs by removing or adding columns on the `OG_data` spreadsheet
-- Edit the OGs accordingly on line 19 in `app.py`
+You can change the number of OGs by removing or adding columns on the `OG_data` spreadsheet. Edit the OGs accordingly on line 19 in `app.py`.
 
 ## Refresh Token
 
-- When token in `token.json` expires, generate a new one by deleting `token.json` and running the application.
+When token in `token.json` expires, generate a new one by deleting `token.json` and running the application.
