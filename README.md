@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ### 4. Link up with Google Sheets
 
-- Copy this [Google Sheets template](https://docs.google.com/spreadsheets/d/14jbJnMyWMaDqw9ZoF5UAC62kja30Ux8x/edit?usp=sharing&ouid=107399073491140729219&rtpof=true&sd=true) onto your Google Drive
+- Copy this [Google Sheets template](https://docs.google.com/spreadsheets/d/1VHlun2B3p2ckcK-9hMN5P0bEglbYmqnBE19aVN79G2o/edit?usp=sharing) onto your Google Drive
 - Create a `.env` file in the root directory and copy the spreadsheet ID
 
 ```
@@ -72,6 +72,11 @@ python app.py
 - Real-time attendance will be updated on the google sheets accordingly
 - Attendance log will be generated and updated in `attendance.txt`
 
+## How to use it
+
+- Users have to find the Telegram Bot by name on Telegram
+- Type `/start` to start or reset the bot
+
 ## Refresh Token
 
-- When token in `token.json` expires, generate a new one by deleting the file and running the application.
+- When token in `token.json` expires, generate a new one by deleting `token.json` and running the application.
