@@ -1,6 +1,6 @@
-# OMC Attendance Bot
+# Orientation Attendance Bot
 
-A Telegram Bot created to streamline attendance taking and tracking within orientation camps.
+A Telegram bot created to streamline attendance taking and tracking within orientation camps.
 
 ## Getting Started
 
@@ -42,9 +42,9 @@ pip install -r requirements.txt
 SPREADSHEET_ID=<your-spreadsheet-id>
 ```
 
-### 5. Link up with Telegram Bot
+### 5. Link up with Telegram bot
 
-- Create a new Telegram Bot with BotFather
+- Create a new Telegram bot with BotFather
 - Get the bot token and copy it into the `.env` file
 
 ```
@@ -69,13 +69,18 @@ python app.py
 
 ## How it works
 
-- Real-time attendance will be updated on the google sheets accordingly
+- Real-time attendance will be updated on the Google Sheets accordingly
 - Attendance log will be generated and updated in `attendance.txt`
 
 ## How to use it
 
-- Users have to find the Telegram Bot by name on Telegram
+- Users have to find the Telegram bot by name on Telegram
 - Type `/start` to start or reset the bot
+
+## Changing the number of OGs
+
+- You can change the number of OGs by removing or adding columns on the `OG_data` spreadsheet
+- Edit the OGs accordingly on line 19 in `app.py`
 
 ## Refresh Token
 

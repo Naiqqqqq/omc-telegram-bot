@@ -15,9 +15,9 @@ from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, Callb
 
 load_dotenv()
 
-# Update OGs accordingly
+# Update OGs accordingly, you can add or remove OGs too
 ogs = ["OG1", "OG2", "OG3", "OG4"]
-RANGE = "OG_data!A2:H"
+RANGE = "OG_data!A2:Z"
 
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 
