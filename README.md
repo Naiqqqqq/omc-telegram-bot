@@ -67,3 +67,7 @@ python app.py
 
 - Real-time attendance will be updated on the google sheets accordingly
 - Attendance log will be generated and updated in `attendance.txt`
+
+## Refresh Token
+
+- When token in `token.json` expires, generate a new one by deleting the file and running the application.
