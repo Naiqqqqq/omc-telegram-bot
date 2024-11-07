@@ -51,6 +51,10 @@ SPREADSHEET_ID=<your-spreadsheet-id>
 TOKEN=<your-token-here>
 ```
 
+### 6. Update OG names
+
+- Update OG names on both the Google Sheets and on line 19 in `app.py`
+
 ## Run the application
 
 ```

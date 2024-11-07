@@ -15,14 +15,14 @@ from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, Callb
 
 load_dotenv()
 
-ogs = ["ECLIPSE", "MIRAGE", "CIPHER", "ABYSS"]
+# Update OGs accordingly
+ogs = ["OG1", "OG2", "OG3", "OG4"]
+RANGE = "OG_data!A2:H"
 
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 
-# Change the spreadsheet ID
 SPREADSHEET_ID = os.getenv('SPREADSHEET_ID')
 TOKEN = os.getenv('TOKEN')
-RANGE = "OG_data!A2:H"
 
 creds = None
 if os.path.exists("token.json"):
@@ -62,7 +62,7 @@ def getData(selected_og):
         print("No data found.")
         return
 
-    data = [[],[],[],[]]
+    data = [[] for i in range(len(ogs))]
 
     for row in values:
         for index in range(len(row)):
