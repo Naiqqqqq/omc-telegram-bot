@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 ### 3. Link up with Google Cloud Console
 
-- [Create a Google Cloud Console project](console.cloud.google.com)
+- [Create a Google Cloud Console project](https://console.cloud.google.com)
 - Go to APIs and Services --> Credentials
 - Create Credentials --> OAuth client ID --> Desktop app
 - Download the `credentials.json` file generated and place it in the root directory of the application
